@@ -3,6 +3,10 @@ import csv
 import sys
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 from azure.identity import DefaultAzureCredential
+#===============================
+# How to use this script:
+# Provide your client_id, tenant_id, client_secret, purview_account_name in the following lines ,
+# Once the mapping file has been filed, run the script.
 
 # Azure App Registration credentials
 client_id = "" # Insert your client ID Here
